@@ -36,5 +36,12 @@ public class Second extends AppCompatActivity {
                 startActivity(po);
             }
         });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent po = new Intent(getApplicationContext(), Moviev.class);
+                startActivity(po);
+            }
+        });
     }
 }
